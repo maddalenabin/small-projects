@@ -15,7 +15,7 @@ while True:
     event, values = window.read()
     
     # YES: open new window with message
-    if event == "YES":~
+    if event == "YES":
         window.close()
         w2 = sg.Window(title="AHAH", layout=layout2, margins=(100, 50), font=("Helvetica", 20)).read()
         # sg.popup("I knew it :) ")
